@@ -12,7 +12,6 @@ def input_to_index(index)
   return index.to_i-1
 end
 
-def move(board, array, value = "X")
-  binding.pry
-  return value
+def move(board, pos, value = "X")
+  board[pos]=value
 end
