@@ -7,5 +7,5 @@ puts "Welcome to Tic Tac Toe!"
 def board(get_variable_from_file)
   puts "Where would you like to go?"
 end
-index = gets.strip
-pos(index)
+# index = gets.strip
+# pos(index)
