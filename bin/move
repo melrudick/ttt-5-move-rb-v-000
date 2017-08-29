@@ -8,4 +8,4 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 puts "Where would you like to go?"
 user_input = gets.strip
-pos = input_to_index(user_input)
+index = input_to_index(user_input)
